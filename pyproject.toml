@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mirgovorit-test"
+version = "0.1.0"
+description = ""
+authors = ["Maryia Afanasyeva <masha.afanaseva0192@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mirgovorit_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.1"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.1"
+django-debug-toolbar = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
